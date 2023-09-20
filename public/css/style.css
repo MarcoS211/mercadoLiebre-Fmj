@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 header{
     background-color:#EAC926;
 }
@@ -34,6 +35,9 @@ p{
 footer {
     font-size: 24px;
     text-align: center;
+}
+footer h3{
+    margin: auto;
 }
 footer i{
     margin-bottom: 10px;
