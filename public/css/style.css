@@ -67,13 +67,18 @@ p{
     font-size: 16px;
     color: #666;
 }
-
+.Descripcion::hove{
+    
+}
 @media screen and (min-width: 361px){
 nav{
     display: none;
 }
 header p{
     margin-left: 60px;
+}
+main .Descripcion{
+    display: none;
 }
 
 }
@@ -82,6 +87,7 @@ header p{
 footer {
     font-size: 24px;
     text-align: center;
+    background-color:#EAC926;
 }
 footer h3{
     margin: auto;
@@ -90,7 +96,7 @@ footer i{
     margin-bottom: 10px;
     font-size: 2em;
     color: #1259c3;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .burger-menu{
     font-size: 2em;
@@ -178,7 +184,7 @@ header p{
     }
 
     @media screen and (min-width: 769px){
-        .producto article{
+        .producto article:hover{
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
         }
         nav{
@@ -223,6 +229,23 @@ header p{
         }
         .formLoggin{
             text-align: center;
+        }
+        main .Descripcion{
+            display: block;
+            opacity:0;
+        }
+        main .Descripcion:hover{
+            display: block;
+            opacity:100;
+            transition: 450ms;
+        }
+        .main-article i:hover{
+            transform: rotateZ(-90deg);
+        }
+        footer{
+            display: flex;
+            padding-bottom: 20px;
+            align-items: center;
         }
     }
     .container {
@@ -280,7 +303,10 @@ header p{
     }
     
     button:hover {
-        background-color: #0056b3;
+        background-color: #0022AA;
+    }
+    footer i:hover{
+        color: #0022AA;
     }
 
     
