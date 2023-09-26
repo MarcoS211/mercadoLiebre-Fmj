@@ -67,9 +67,6 @@ p{
     font-size: 16px;
     color: #666;
 }
-.Descripcion::hove{
-    
-}
 @media screen and (min-width: 361px){
 nav{
     display: none;
@@ -80,7 +77,6 @@ header p{
 main .Descripcion{
     display: none;
 }
-
 }
 
 
