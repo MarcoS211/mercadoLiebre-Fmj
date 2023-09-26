@@ -72,6 +72,10 @@ p{
 nav{
     display: none;
 }
+header p{
+    margin-left: 60px;
+}
+
 }
 
 
@@ -143,38 +147,141 @@ header p{
     flex-wrap: wrap;
     align-items: center;
 }
-@media screen and (min-width: 769px){
-    .producto article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    nav{
-        display: flex;
-        justify-content: space-between;
-    }
-    nav ul{
-        display:flex;
-    }
-    nav li{
-        margin: 15px 15px;
-    }
-    .burger-menu{
-        display: none;
-    }
-    .top-header{
-        justify-content: space-between;
-    }
-    .logo{
 
-       width: auto;
-       
+    
+    .formLoggin{
+        padding: 20px 15px;
     }
-    .in-button{
-        width: auto;
-        font-size: 1em;
-       
+    .control-formulario{
+        margin-bottom: 15px;
     }
-    .top-header p{
-        align-items: center;
-        font-size: 1em;
+    .control-formulario label{
+        margin-bottom: 5px;
+
     }
+    .pass{
+        width: 100%;
+        padding: 8px;
     }
+    .usuario
+    {
+        width: 100%;
+        padding: 8px;
+    }
+    .boton-ingresar{
+        background-color: #1259c3;
+        border: none;
+        font-size: 20px;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    @media screen and (min-width: 769px){
+        .producto article{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            font-size: x-large;
+        }
+        nav ul{
+            display:flex;
+        }
+        nav li{
+            margin: 15px 15px;
+        }
+        .burger-menu{
+            display: none;
+        }
+        .top-header{
+            justify-content: space-between;
+        }
+        .logo{
+    
+           width: auto;
+           
+        }
+        .in-button{
+            width: auto;
+            font-size: 2em;
+           
+        }
+        .top-header p{
+            align-items: center;
+            font-size: 1.3em;
+        }
+        .pass{
+            width: 30vh;
+            padding: 8px;
+        }
+        .usuario
+        {
+            width:30vh;
+            padding: 8px;
+        }
+        .formLoggin{
+            text-align: center;
+        }
+    }
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .container h1 {
+        text-align: center;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .container label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select,
+    input[type="date"],
+    input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .checkbox-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .checkbox-group input[type="checkbox"] {
+        margin-right: 10px;
+    }
+    
+    .container button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    
+    
